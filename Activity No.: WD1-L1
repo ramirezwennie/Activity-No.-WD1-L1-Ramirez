@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="tl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alamat ng Sampaguita</title>
+</head>
+<body>
+    <!-- Top Part -->
+    <h2>Student Name: Donbenben M. Ramirez</h2>
+    <h2>Year & Section: BSCS 2B</h2>
+    <h2>Subject: Web Development</h2>
+
+    <!-- Story Title -->
+    <h1>Alamat ng Sampaguita</h1>
+
+    <!-- Kabanata 1 -->
+    <h4>Kabanata 1: Ang Prinsesa at ang Dalawang Binata</h4>
+    <p>
+        Noong unang panahon, sa isang maliit na <i>kaharian</i>, naninirahan ang isang napakagandang prinsesa na nagngangalang 
+        <b style="color:purple;">Prinsesa Sampaguita</b>. 
+        Kilala siya sa buong <i>lupain</i> hindi lamang dahil sa kanyang ganda kundi pati na rin sa kanyang kabaitan. 
+        Mahal na mahal siya ng lahat ng kanyang nasasakupan.  
+        Mayroong dalawang binatang naninilbihan sa kanyang <i>palasyo</i> na kapwa humahanga sa kanya. 
+        Ang una ay si <b style="color:blue;">Prinsipe Lakan</b>, isang matapang at malakas na mandirigma mula sa kalapit na <i>kaharian</i>. 
+        Naniniwala siya na ang pag-ibig ay dapat ipaglaban.  
+        Ang pangalawa ay si <b style="color:green;">Mang-tanggol</b>, isang mahinahon at masipag na hardinero. 
+        Walang araw na hindi siya nag-aalaga ng mga <u>halaman</u> sa hardin ng <i>palasyo</i> at ang bawat <u>bulaklak</u> ay alay niya kay <b style="color:purple;">Prinsesa Sampaguita</b>.  
+        Bagaman parehong may pagtingin sa prinsesa, magkaiba ang kanilang pamamaraan:  
+        Si <b style="color:blue;">Prinsipe Lakan</b> ay laging nagpapakita ng tapang at lakas, habang si <b style="color:green;">Mang-tanggol</b> ay nagpapakita ng pagmamahal sa pamamagitan ng pag-aalaga sa kalikasan.
+    </p>
+
+    <!-- Kabanata 2 -->
+    <h4>Kabanata 2: Ang Lihim na Pag-ibig</h4>
+    <p>
+        Isang araw, nagkasakit ang amang <b style="color:brown;">Hari</b> ni <b style="color:purple;">Prinsesa Sampaguita</b>. 
+        Wala nang nakagamot sa kanya kahit ang pinakamagaling na <u>manggagamot</u> sa buong <i>kaharian</i>.  
+        Dahil sa kanyang kalagayan, ipinahayag ng <b style="color:brown;">Hari</b> na sinumang makapagpapagaling sa kanya ay kanyang hihingin ang kamay ng kanyang anak.  
+        Naging palaisipan ito sa lahat at lalong tumindi ang kumpetisyon sa pagitan ni <b style="color:blue;">Prinsipe Lakan</b> at ni <b style="color:green;">Mang-tanggol</b>.  
+        Habang si <b style="color:blue;">Prinsipe Lakan</b> ay naghanda ng kanyang lakas at tapang, si <b style="color:green;">Mang-tanggol</b> ay umasa lamang sa taimtim na panalangin at sa kanyang wagas na pagmamahal para kay <b style="color:purple;">Prinsesa Sampaguita</b>.  
+        Ngunit sa likod ng lahat, lihim na nagdurusa si <b style="color:purple;">Prinsesa Sampaguita</b> sa takot na baka mawala ang isa sa dalawang taong mahalaga sa kanyang buhay.
+    </p>
+
+    <!-- Kabanata 3 -->
+    <h4>Kabanata 3: Ang Pagsilang ng Sampaguita</h4>
+    <p>
+        Sa gitna ng kaguluhan at digmaan, nagsalita ang <b style="color:brown;">Hari</b> at sinabi:  
+        "Hindi ko hahayaang maghirap ang aking <i>kaharian</i> dahil sa pag-ibig. Siya na tunay na nagmamahal sa aking anak ay dapat na magsakripisyo."  
+        Isang araw, namangha si <b style="color:purple;">Prinsesa Sampaguita</b> nang makita niya ang pagtubo ng isang kakaibang <u>bulaklak</u> sa puntod ni <b style="color:green;">Mang-tanggol</b>.  
+        Ito ay may napakaputing mga talulot at napakabangong amoy. Ang <u>bulaklak</u> ay tila gawa sa hamog ng umaga—maliit ngunit napakapino.  
+        Habang tinitingnan niya ito, naalala niya ang mga huling katagang binitawan ni <b style="color:green;">Mang-tanggol</b>:  
+        "Sumpa kita."  
+        Dahil dito, tinawag ni <b style="color:purple;">Prinsesa Sampaguita</b> ang <u>bulaklak</u> na "Sampaguita"—simbolo ng tunay na pag-ibig at sakripisyo.
+    </p>
+
+</body>
+</html>
