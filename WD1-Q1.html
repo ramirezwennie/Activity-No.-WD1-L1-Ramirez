@@ -3,83 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style> 
+    <title>Milk Tea Shop</title>
+    <!-- Use Tailwind CSS for modern styling -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* A.2 Navigation as Single Page Section Anchors (Pink Background, White Fonts) */
+        /* Tailwind classes are preferred, but some custom styles for specific elements are here */
         body {
-            margin: 0;
-            font-family: Arial, sans-serif;
+            font-family: 'Inter', sans-serif;
         }
 
-        nav {
-            background-color: Pink;   
-            padding: 10px;
-            text-align: center;
-        }
-
-        nav a {
-            color: white;
-            margin: 0 15px;
-            text-decoration: none;
-            font-weight: bold;
-        }
-
-        h1, h2 {
-            text-align: center;
-        }
-
-        img { 
-            width: 150px;   
+        /* Custom styles for the images to ensure they are consistent */
+        .gallery-img {
+            width: 100%;
             height: auto;
-            display: block;
-            margin: 0 auto;
-        }
-
-        table {
-            border-collapse: collapse;
-            margin: 20px auto;
-        }
-
-        td {
-            border: 2px solid #eee;
-            padding: 10px;
-            text-align: center;
+            max-width: 250px;
+            object-fit: cover;
+            border-radius: 0.5rem;
         }
     </style>
 </head>
-<body>
-    <nav>
-        <a href="#home">Home</a>
-        <a href="#info">Shop Information</a>
-        <a href="#gallery">Shop Gallery</a>
-        <a href="#footer">Footer</a>
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- A.2 Navigation Bar -->
+    <nav class="bg-pink-500 p-4 text-center rounded-b-lg shadow-lg">
+        <a href="#home" class="text-white text-lg font-bold mx-4 hover:underline">Home</a>
+        <a href="#info" class="text-white text-lg font-bold mx-4 hover:underline">Shop Information</a>
+        <a href="#gallery" class="text-white text-lg font-bold mx-4 hover:underline">Shop Gallery</a>
+        <a href="#footer" class="text-white text-lg font-bold mx-4 hover:underline">Footer</a>
     </nav>
 
-    <h1>Welcome to Our Shop Milk Tea</h1>
-    <img src="shop-milk-tea-banner-with-shop-interior-Milk-on-shop-G0TDCE.jpg" alt="Shop Milk Tea">
+    <!-- A.1 Header (Photo Banner) Name of Shop -->
+    <header id="home" class="py-10 bg-white shadow-md rounded-lg m-4">
+        <h1 class="text-4xl sm:text-5xl font-extrabold text-center text-pink-600 mb-4">Welcome to Our Milk Tea Shop</h1>
+        <div class="flex justify-center">
+            <!-- Placeholder for a shop banner image -->
+            <img src="https://placehold.co/1200x400/FFC0CB/FFFFFF?text=Milk+Tea+Shop+Banner" alt="Shop Milk Tea Banner" class="rounded-lg shadow-lg w-full max-w-4xl h-auto">
+        </div>
+    </header>
 
-    <h2 id="gallery">Shop Gallery</h2>
-    <table>
-        <tr>
-            <td><img src="milk-tea1.jpg" alt="Milk Tea 1"></td>
-            <td><img src="milk-tea2.jpg" alt="Milk Tea 2"></td>
-            <td><img src="milk-tea3.jpg" alt="Milk Tea 3"></td>
-            <td><img src="milk-tea4.jpg" alt="Milk Tea 4"></td>
-        </tr>
-        <tr>
-            <td><img src="milk-tea5.jpg" alt="Milk Tea 5"></td>
-            <td><img src="milk-tea6.jpg" alt="Milk Tea 6"></td>
-            <td><img src="milk-tea7.jpg" alt="Milk Tea 7"></td>
-            <td><img src="milk-tea8.jpg" alt="Milk Tea 8"></td>
-        </tr>
-        <tr>
-            <td><img src="milk-tea9.jpg" alt="Milk Tea 9"></td>
-            <td><img src="milk-tea10.jpg" alt="Milk Tea 10"></td>
-            <td><img src="milk-tea11.jpg" alt="Milk Tea 11"></td>
-            <td><img src="milk-tea12.jpg" alt="Milk Tea 12"></td>
-        </tr>
-    </table>
+    <!-- A.3 Content 1 - Shop Information -->
+    <section id="info" class="p-6 m-4 bg-white rounded-lg shadow-md">
+        <h2 class="text-3xl font-bold text-center text-pink-600 mb-4">Shop Information</h2>
+        <div class="text-center text-gray-700 space-y-2">
+            <p><strong>Hours:</strong> Monday - Saturday, 10:00 AM - 9:00 PM</p>
+            <p><strong>Address:</strong> 123 Bubble Tea Lane, Flavor Town</p>
+            <p><strong>Contact:</strong> (123) 456-7890 | info@milktea.com</p>
+        </div>
+    </section>
 
-    <footer id="footer">
-        <p>Thank you for visiting!</p>
+    <!-- A.4 Content 2 - Shop Gallery (12 Items in a table 4x3) -->
+    <section id="gallery" class="p-6 m-4 bg-white rounded-lg shadow-md">
+        <h2 class="text-3xl font-bold text-center text-pink-600 mb-6">Shop Gallery</h2>
+        <div class="overflow-x-auto">
+            <table class="w-full mx-auto border-separate border-spacing-4">
+                <tbody>
+                    <!-- Row 1 -->
+                    <tr>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/0" alt="Brown Sugar Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/1" alt="Coco Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/2" alt="The Alley Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/3" alt="Matcha Milk Tea" class="gallery-img">
+                        </td>
+                    </tr>
+                    <!-- Row 2 -->
+                    <tr>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/4" alt="Mango Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/5" alt="Caramel Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/6" alt="Taro Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/7" alt="Creme Brulee Milk Tea" class="gallery-img">
+                        </td>
+                    </tr>
+                    <!-- Row 3 -->
+                    <tr>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/8" alt="Matcha Green Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <img src="http://googleusercontent.com/file_content/9" alt="Classic Milk Tea" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <!-- Placeholder image 11 -->
+                            <img src="https://placehold.co/250x250/FFC0CB/FFFFFF?text=Milk+Tea+11" alt="Placeholder Milk Tea 11" class="gallery-img">
+                        </td>
+                        <td class="p-2 text-center">
+                            <!-- Placeholder image 12 -->
+                            <img src="https://placehold.co/250x250/FFC0CB/FFFFFF?text=Milk+Tea+12" alt="Placeholder Milk Tea 12" class="gallery-img">
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- A.5 Footer -->
+    <footer id="footer" class="bg-gray-800 text-white text-center py-6 rounded-t-lg mt-4">
+        <p>&copy; 2024 Milk Tea Shop. All rights reserved.</p>
+        <p>Follow us on social media:
+            <a href="#" class="text-pink-400 hover:text-pink-200">Facebook</a> |
+            <a href="#" class="text-pink-400 hover:text-pink-200">Instagram</a> |
+            <a href="#" class="text-pink-400 hover:text-pink-200">Twitter</a>
+        </p>
     </footer>
+
 </body>
-</html>
+                </html>
+    
