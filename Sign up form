@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sign Up</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .form-container {
+      margin-left: 220px;
+      padding: 20px;
+      max-width: 400px;
+    }
+    label {
+      display: block;
+      margin: 10px 0 5px;
+    }
+    input[type="text"],
+    input[type="email"],
+    input[type="password"] {
+      width: 100%;
+      padding: 8px;
+      box-sizing: border-box;
+    }
+    input[type="submit"] {
+      margin-top: 15px;
+      padding: 10px 15px;
+    }
+    .link {
+      margin-top: 10px;
+      display: block;
+    }
+  </style>
+  <script>
+    function validateSignup() {
+      const user = document.getElementById('username').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const pass = document.getElementById('password').value.trim();
+      if (!user || !email || !pass) {
+        alert('Please fill in all the fields.');
+        return false;
+      }
+      alert('Signup submitted');
+      return true;
+    }
+  </script>
+</head>
+<body>
+  <!-- Navigation/Header -->
+  <header class="header">
+    <div class="logo">MySite</div>
+    <nav class="nav-menu">
+      <a href="index.html">Home</a>
+      <a href="login.html">Login</a>
+      <a href="sign-up.html" class="active">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Sidebar / Aside Navigation -->
+  <aside class="sidebar">
+    <h3>Sidebar Menu</h3>
+    <ul>
+      <li><a href="#">Tutorials</a></li>
+      <li><a href="#">Exercises</a></li>
+      <li><a href="#">Certificates</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+  </aside>
+
+  <!-- Signup Form Content -->
+  <section class="form-container">
+    <h2>Sign Up</h2>
+    <form onsubmit="return validateSignup()">
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" />
+
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" />
+
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" />
+
+      <input type="submit" value="Sign Up" />
+    </form>
+    <a href="login.html" class="link">Already have an account? Login</a>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 MySite. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
