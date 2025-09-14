@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Simple Landing Page</title>
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    /* Inline to style important landing page area */
+    .landing-content {
+      margin-left: 220px; /* accommodate sidebar */
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation/Header -->
+  <header class="header">
+    <div class="logo">MySite</div>
+    <nav class="nav-menu">
+      <a href="index.html" class="active">Home</a>
+      <a href="login.html">Login</a>
+      <a href="sign-up.html">Sign Up</a>
+    </nav>
+  </header>
+
+  <!-- Sidebar / Aside Navigation -->
+  <aside class="sidebar">
+    <h3>Sidebar Menu</h3>
+    <ul>
+      <li><a href="#">Tutorials</a></li>
+      <li><a href="#">Exercises</a></li>
+      <li><a href="#">Certificates</a></li>
+      <li><a href="#">Services</a></li>
+    </ul>
+  </aside>
+
+  <!-- Main Section/Content -->
+  <section class="landing-content">
+    <h1>Welcome to MySite</h1>
+    <p>This is a simple landing page providing how-tos and access to login/signup forms.</p>
+    <p>Use the navigation menu above or sidebar to explore.</p>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>© 2024 MySite. All Rights Reserved.</p>
+  </footer>
+</body>
+</html>
