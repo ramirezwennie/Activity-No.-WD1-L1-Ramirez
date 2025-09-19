@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Ilocos Sur - Home</title>
+    <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+    <header>
+        <div class="container header-container">
+            <h1>Ilocos Sur</h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <img src="Ilocos-Sur-Vigan.webp" alt="Ilocos Sur Hero Image" />
+        <div class="hero-text">
+            <h2>Welcome to Ilocos Sur</h2>
+            <p>Discover the beauty and culture of Ilocos Sur, a province rich in history and adventure.</p>
+        </div>
+    </section>
+
+    <!-- Section 1 -->
+    <section class="feature-presentation container">
+        <div class="feature-photo">
+            <img src="vigan heritage village.jpeg" alt="Vigan Heritage Village" />
+        </div>
+        <div class="feature-info">
+            <h2>Vigan Heritage Village</h2>
+            <p>Experience the charm of Spanish colonial architecture and cobblestone streets in Vigan, a UNESCO World Heritage Site.</p>
+            <p>Walk through centuries-old houses and enjoy local cuisine and crafts.</p>
+        </div>
+    </section>
+
+    <!-- Tourist Spots and Adventures -->
+    <section class="tourist-spots container">
+        <h2>Tourist Spots and Adventures</h2>
+
+        <section class="spot">
+            <h3>1. Bantay Bell Tower</h3>
+            <p>The Bantay Bell Tower offers panoramic views of Vigan and the surrounding areas. It is a historic watchtower built during the Spanish era.</p>
+            <p>Climb the tower and enjoy breathtaking sunsets.</p>
+            <p class="hashtags">#BantayBellTower #ViganViews #HistoricSite #SunsetSpot #IlocosSur</p>
+        </section>
+
+        </div>
+        <section class="spot">
+            <h3>2. Baluarte Zoo</h3>
+            <p>Baluarte Zoo is a wildlife sanctuary and mini-zoo owned by a local politician. It features exotic animals and interactive shows.</p>
+            <p>Perfect for family adventures and animal lovers.</p>
+            <p class="hashtags">#BaluarteZoo #WildlifeSanctuary #FamilyFun #AnimalLovers #IlocosSur</p>
+        </section>
+
+        <section class="spot">
+            <h3>3. Hidden Beach</h3>
+            <p>Hidden Beach is a secluded paradise with crystal-clear waters and white sand. Ideal for swimming, snorkeling, and relaxation.</p>
+            <p>Escape the crowds and enjoy nature’s tranquility.</p>
+            <p class="hashtags">#HiddenBeach #SecludedParadise #Snorkeling #WhiteSand #IlocosSur</p>
+        </section>
+    </section>
+
+    <!-- Section 2 -->
+    <section class="feature-presentation container">
+        <div class="feature-photo">
+            <img src="Ilocos Sur Local Products.jpg" alt="Ilocos Sur Local Products" />
+        </div>
+        <div class="feature-info">
+            <h2>Local Products of Ilocos Sur</h2>
+            <p>Explore the rich culture through our local products, crafted with passion and tradition.</p>
+            <p>Support local artisans and bring home a piece of Ilocos Sur.</p>
+        </div>
+    </section>
+
+    <!-- Locale Products Grid -->
+    <section class="products container">
+        <h2>Featured Products</h2>
+        <div class="product-grid">
+            <!-- Product Cards -->
+            <div class="product-card" data-product-id="1">
+                <img src="Inabel Fabric.jpg" alt="Inabel Fabric" />
+                <h3>Inabel Fabric</h3>
+                <p>Traditional handwoven textile from Ilocos Sur.</p>
+                <p class="price">₱500</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="2">
+                <img src="vigan_longganisa.jpg" alt="Vigan Longganisa" />
+                <h3>Vigan Longganisa</h3>
+                <p>Famous Ilocos Sur sausage with a garlicky flavor.</p>
+                <p class="price">₱150</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="3">
+                <img src="Burnay  pottery.jpg" alt="Burnay Pottery" />
+                <h3>Burnay Pottery</h3>
+                <p>Handcrafted earthen jars used for storage and decoration.</p>
+                <p class="price">₱800</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="4">
+                <img src="ilocos sur vinegar.jpg" alt="Ilocos Vinegar" />
+                <h3>Ilocos Vinegar</h3>
+                <p>Traditional vinegar made from sugarcane and coconut sap.</p>
