@@ -108,3 +108,74 @@
                 <img src="ilocos sur vinegar.jpg" alt="Ilocos Vinegar" />
                 <h3>Ilocos Vinegar</h3>
                 <p>Traditional vinegar made from sugarcane and coconut sap.</p>
+                <p class="price">₱120</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="5">
+                <img src="ilocos sur salt.jpg" alt="Ilocos Salt" />
+                <h3>Ilocos Salt</h3>
+                <p>Natural sea salt harvested from the shores of Ilocos.</p>
+                <p class="price">₱100</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="6">
+                <img src="ilocos sur coffee.jpeg" alt="Ilocos Coffee" />
+                <h3>Ilocos Coffee</h3>
+                <p>Rich and aromatic coffee beans grown locally.</p>
+                <p class="price">₱250</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="7">
+                <img src="ilocos sur chichacorn.jpg" alt="Ilocos Chichacorn" />
+                <h3>Ilocos Chichacorn</h3>
+                <p>Crispy corn snack with a savory twist.</p>
+                <p class="price">₱80</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="8">
+                <img src="ilocos sur peanut brittle.jpeg" alt="Ilocos Peanut Brittle" />
+                <h3>Peanut Brittle</h3>
+                <p>Sweet and crunchy peanut candy.</p>
+                <p class="price">₱90</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="9">
+                <img src="ilocos sur bagnet.jpg" alt="Ilocos Bagnet" />
+                <h3>Ilocos Bagnet</h3>
+                <p>Crispy deep-fried pork belly, a local delicacy.</p>
+                <p class="price">₱350</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="10">
+                <img src="ilocos sur empanada.jpg" alt="Ilocos Empanada" />
+                <h3>Ilocos Empanada</h3>
+                <p>Deep-fried pastry filled with vegetables and meat.</p>
+                <p class="price">₱70</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="11">
+                <img src="ilocos sur salted egg.jpeg" alt="Ilocos Salted Eggs" />
+                <h3>Salted Eggs</h3>
+                <p>Preserved duck eggs with a salty flavor.</p>
+                <p class="price">₱60</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+            <div class="product-card" data-product-id="12">
+                <img src="ilocos sur dried fish.jpg" alt="Ilocos Dried Fish" />
+                <h3>Dried Fish</h3>
+                <p>Sun-dried fish, a staple in Ilocos cuisine.</p>
+                <p class="price">₱200</p>
+                <button class="cart-btn" onclick="toggleCart(this)">Add to Cart</button>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 Ilocos Sur Tourism. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
