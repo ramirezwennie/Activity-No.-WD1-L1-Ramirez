@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Socratized Media</title>
+    <style>
+        @import url('https://fonts.cdnfonts.com/css/bitcount-grid-double');
+        
+        html {
+            height: 100%;
+        }
+
+        body {
+            background-image: url(3f92808a-bf1c-4197-9781-d2c730ec0bc6.jpeg);
+            background-repeat: repeat;
+            height: 100%;
+            display: flex;
+            justify-content: center; /* horizontal centering */
+            align-items: center; /* vertical centering */
+        }
+
+        .login-form {
+            background-color: white;
+            border-radius: 10px;
+            box-shadow: 5px 10px 100px 10px black;
+            display: flex;
+            justify-content: space-around; /* horizontal centering */
+            padding: 20px;
+        }
+
+        .header-text {
+            padding: 30px 20px 10px 30px;
+            margin: 20px;
+            border-radius: 10px;
+            color: white;
+            font: 50px "Bitcount Grid Double", serif;
+            letter-spacing: 5px;
+            display: flex;
+            justify-content: center; /* horizontal centering */
+            align-items: center; /* vertical centering */
+            background-color: black;
+            text-align: center;
+        }
+        
+        form {
+            margin: 30px 50px 30px 10px;
+        }
+
+        .uname-row {
+            margin-bottom: 25px;
+        }
+
+        .input-label {
+            display: block;
+            font: 20px "Bitcount Grid Double", serif;
+            margin-bottom: 5px;
+        }
+
+        .input-text {
+            width: 100%;
+            height: 30px;
+            padding: 10px 0px 10px 5px;
+            font-size: 20px;
+            border-radius: 5px;
+            border-color: lightgray;
+            border: 1px solid lightgray;
+        }
+
+        .forgot-password {
+            margin-top: 25px;
+            margin-bottom: 20px;
+        }
+        
+        .fp-desc {
+            font-size: 14px;
+            color: gray;
+            text-align: center;
+            font-family: sans-serif;
+        }
+        
+        .keep-signed-in {
+            font-family: sans-serif;
+            font-size: 14px;
+        }
+
+        .submit-button {
+            width: 100%;
+            padding: 15px;
+            color: white;
+            font-size: 20px;
+            text-transform: uppercase;
+            background-color: black;
+            border-radius: 5px;
+            border: none;
+            cursor: pointer;
+            margin-top: 10px;
+        }
+        
+    </style>
+</head>
+<body>
+
+<div class="login-form">
+    <div class="header-text">SOC<br>MED</div>
+    <form action="#">
+        <div class="uname-row">
+            <label class="input-label" for="uname">USERNAME</label>
+            <input class="input-text" type="text" id="uname" name="uname" placeholder="e.g. JuanDC25">
+        </div>
+        <div class="pcode-row">
+            <label class="input-label" for="pcode">PASSCODE</label>
+            <input class="input-text" type="password" id="pcode" name="pcode" placeholder="Passcode">
+        </div>
+        <div class="forgot-password">
+            <input type="checkbox" id="keep-signed-in" name="keep-signed-in">
+            <label for="keep-signed-in" class="keep-signed-in">KEEP ME SIGNED IN</label>
+        </div>
+        <div class="submit-row">
+            <button class="submit-button" type="submit">SUBMIT</button>
+        </div>
+    </form>
+</div>
+
+</body>
+</html>
