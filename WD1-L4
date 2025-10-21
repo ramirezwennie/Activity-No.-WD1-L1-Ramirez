@@ -213,4 +213,137 @@
             }
 
             .snacks {
-        
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Sticky Header -->
+    <header>
+        <nav>
+            <h1>Shop</h1>
+            <ul>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#contact">CONTACT US</a></li>
+                <li><a href="#about">ABOUT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Container: 80% Products + 20% Cart -->
+    <div class="main-container">
+        <!-- Products Section -->
+        <section class="products">
+            <!-- Drinks Row (Flex) -->
+            <h2>Drinks</h2>
+            <div class="drinks">
+                <div class="drink-card">
+                    <img src="cola cola.webp" alt="Coke">
+                    <h3>Coca-Cola</h3>
+                    <p>Refreshing cola drink</p>
+                    <div class="price">25pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Coca-Cola', 25)">Add to Cart</button>
+                </div>
+                <div class="drink-card">
+                    <img src="sprite.webp" alt="Sprite">
+                    <h3>Sprite</h3>
+                    <p>Lemon-lime soda</p>
+                    <div class="price">19pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Sprite', 19)">Add to Cart</button>
+                </div>
+                <div class="drink-card">
+                    <img src="bottled water.png" alt="Water">
+                    <h3>Bottled Water</h3>
+                    <p>Pure spring water</p>
+                    <div class="price">25pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Bottled Water', 15)">Add to Cart</button>
+                </div>
+                <div class="drink-card">
+                    <img src="orange juice.jpeg" alt="Orange Juice">
+                    <h3>Orange Juice</h3>
+                    <p>Fresh squeezed juice</p>
+                    <div class="price">60pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Orange Juice', 60)">Add to Cart</button>
+                </div>
+            </div>
+
+            <!-- Snacks Row (Grid) -->
+            <h2>Snacks</h2>
+            <div class="snacks">
+                <div class="snack-card">
+                    <img src="lays potato chips.webp" alt="Potato Chips">
+                    <h3>Potato Chips</h3>
+                    <p>Crispy salted chips</p>
+                    <div class="price">133pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Potato Chips', 133)">Add to Cart</button>
+                </div>
+                <div class="snack-card">
+                    <img src="chocolate chips ahoy.webp" alt="Chocolate Cookies">
+                    <h3>Chocolate Cookies</h3>
+                    <p>Soft chocolate treats</p>
+                    <div class="price">261pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Chocolate Cookies', 261)">Add to Cart</button>
+                </div>
+                <div class="snack-card">
+                    <img src="mixed nuts.jpg" alt="Mixed Nuts">
+                    <h3>Mixed Nuts</h3>
+                    <p>Healthy nut mix</p>
+                    <div class="price">71pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Mixed Nuts', 71)">Add to Cart</button>
+                </div>
+                <div class="snack-card">
+                    <img src="coco energy bar.webp" alt="Energy Bar">
+                    <h3>Energy Bar</h3>
+                    <p>Protein-packed bar</p>
+                    <div class="price">99 pesos</div>
+                    <button class="add-to-cart" onclick="addToCart('Energy Bar', 99)">Add to Cart</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Cart Aside -->
+        <aside id="cart">
+            <h3>Shopping Cart</h3>
+            <div id="cart-items">
+                <!-- Items will be added here dynamically -->
+            </div>
+            <div class="total">
+                Total: pesos <span id="total-price">0.00</span>
+            </div>
+        </aside>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Shop. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Simple cart functionality
+        let cart = [];
+        let total = 0;
+
+        function addToCart(name, price) {
+            cart.push({ name, price });
+            total += price;
+            updateCart();
+        }
+
+        function updateCart() {
+            const cartItems = document.getElementById('cart-items');
+            const totalPrice = document.getElementById('total-price');
+            
+            cartItems.innerHTML = '';
+            cart.forEach(item => {
+                const itemDiv = document.createElement('div');
+                itemDiv.classList.add('cart-item');
+                cartItems.appendChild(itemDiv);
+            });
+            
+            totalPrice.textContent = total.toFixed(2);
+        }
+    </script>
+</body>
+</html>
