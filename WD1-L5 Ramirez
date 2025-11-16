@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewpoint" content="width=device-width, initital-scale=1.0">
+
+    <link rel="stylesheet" href="rsc/css/bootstrap.min.css">
+    <script src="/rsc/js/bootstrap.min.js"></script>
+
+    <tittle>Carousel</tittle>
+</head>
+</body>
+ 
+    <!--Navigation bar-->
+    <nav class="navbar navbar-expand-lg bg_body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="*">Patofito</a>
+            <button class="navbar-toggler-icon"></span>
+            data-bs-toggler="collapse" data-bs-target="#navbbarburger"
+            aria-control="navbarburger" aria-expanded="false"
+            aria-label=Burger Nav">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarburger">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="*">
+                            <b>HOME</b>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            </a>
+        </div>
+    </nav>
+
+    <!--Body carousel-->
+    <div id="carouselCaption" class="carousel slide">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="134006748956714948.jpg"class="dblock w-100"alt="...">
+                
+            </div>
+        </div>
+    </div>
+</body>
+</html>
